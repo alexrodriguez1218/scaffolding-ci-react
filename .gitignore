@@ -1,0 +1,23 @@
+.DS_Store
+
+application/cache/*
+!application/cache/index.html
+!application/cache/.htaccess
+
+application/logs/*
+!application/logs/index.html
+!application/logs/.htaccess
+
+#Directorios que son binarios 
+assets/Img
+.vscode/
+ci_sessions
+#tipo de archivos
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.svg
+
+
+node_modules
